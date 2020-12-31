@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "rsz_1dota_2_icon.jpg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
@@ -16,6 +17,7 @@
       "size" : "29x29"
     },
     {
+      "filename" : "rsz_11dota_2_icon.jpg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"

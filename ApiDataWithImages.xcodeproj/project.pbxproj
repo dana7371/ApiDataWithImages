@@ -13,6 +13,10 @@
 		430464E5259ADAE00080CE2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430464E3259ADAE00080CE2D /* Main.storyboard */; };
 		430464E7259ADAE20080CE2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 430464E6259ADAE20080CE2D /* Assets.xcassets */; };
 		430464EA259ADAE20080CE2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 430464E8259ADAE20080CE2D /* LaunchScreen.storyboard */; };
+		430464F2259ADCD30080CE2D /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430464F1259ADCD30080CE2D /* HeroViewController.swift */; };
+		430464F4259AEB9F0080CE2D /* HeroStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430464F3259AEB9F0080CE2D /* HeroStats.swift */; };
+		430464F9259BF03D0080CE2D /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430464F7259BF03D0080CE2D /* MyTableViewCell.swift */; };
+		430464FA259BF03D0080CE2D /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 430464F8259BF03D0080CE2D /* MyTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		430464E6259ADAE20080CE2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		430464E9259ADAE20080CE2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		430464EB259ADAE20080CE2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		430464F1259ADCD30080CE2D /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
+		430464F3259AEB9F0080CE2D /* HeroStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroStats.swift; sourceTree = "<group>"; };
+		430464F7259BF03D0080CE2D /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		430464F8259BF03D0080CE2D /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				430464DC259ADAE00080CE2D /* ApiDataWithImages */,
-				430464DB259ADAE00080CE2D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,11 +58,14 @@
 				430464DA259ADAE00080CE2D /* ApiDataWithImages.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		430464DC259ADAE00080CE2D /* ApiDataWithImages */ = {
 			isa = PBXGroup;
 			children = (
+				430464F7259BF03D0080CE2D /* MyTableViewCell.swift */,
+				430464F8259BF03D0080CE2D /* MyTableViewCell.xib */,
 				430464DD259ADAE00080CE2D /* AppDelegate.swift */,
 				430464DF259ADAE00080CE2D /* SceneDelegate.swift */,
 				430464E1259ADAE00080CE2D /* ViewController.swift */,
@@ -63,6 +73,9 @@
 				430464E6259ADAE20080CE2D /* Assets.xcassets */,
 				430464E8259ADAE20080CE2D /* LaunchScreen.storyboard */,
 				430464EB259ADAE20080CE2D /* Info.plist */,
+				430464F1259ADCD30080CE2D /* HeroViewController.swift */,
+				430464DB259ADAE00080CE2D /* Products */,
+				430464F3259AEB9F0080CE2D /* HeroStats.swift */,
 			);
 			path = ApiDataWithImages;
 			sourceTree = "<group>";
@@ -126,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				430464EA259ADAE20080CE2D /* LaunchScreen.storyboard in Resources */,
+				430464FA259BF03D0080CE2D /* MyTableViewCell.xib in Resources */,
 				430464E7259ADAE20080CE2D /* Assets.xcassets in Resources */,
 				430464E5259ADAE00080CE2D /* Main.storyboard in Resources */,
 			);
@@ -138,9 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430464F2259ADCD30080CE2D /* HeroViewController.swift in Sources */,
 				430464E2259ADAE00080CE2D /* ViewController.swift in Sources */,
 				430464DE259ADAE00080CE2D /* AppDelegate.swift in Sources */,
+				430464F4259AEB9F0080CE2D /* HeroStats.swift in Sources */,
 				430464E0259ADAE00080CE2D /* SceneDelegate.swift in Sources */,
+				430464F9259BF03D0080CE2D /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

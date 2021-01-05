@@ -35,14 +35,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
 
         cell.textLabel?.text = heroes[indexPath.row].localized_name.capitalized
-        cell.detailTextLabel?.text = "sjdksdjksdjk"
+         cell.detailTextLabel?.text = heroes[indexPath.row].primary_attr
+        //cell.detailTextLabel?.text = "sjdksdjksdjk"
         
         //cell.imageView?.image = UIImage(named: "dog")
 
         //for icon images
         let urlStringIcon = "https://api.opendota.com" + (heroes[indexPath.row].icon)
         let url = URL(string: urlStringIcon)
-        cell.imageView!.downloadedFrom(url: url!)
+       cell.imageView!.image(url: url!)
         return cell
         }
     
@@ -84,6 +85,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 }
  
+
 
 
 

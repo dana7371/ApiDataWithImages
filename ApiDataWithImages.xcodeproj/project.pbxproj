@@ -17,6 +17,7 @@
 		430464F4259AEB9F0080CE2D /* HeroStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430464F3259AEB9F0080CE2D /* HeroStats.swift */; };
 		430464F9259BF03D0080CE2D /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430464F7259BF03D0080CE2D /* MyTableViewCell.swift */; };
 		430464FA259BF03D0080CE2D /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 430464F8259BF03D0080CE2D /* MyTableViewCell.xib */; };
+		430464FC25A3C2BC0080CE2D /* Cacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430464FB25A3C2BB0080CE2D /* Cacher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		430464F3259AEB9F0080CE2D /* HeroStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroStats.swift; sourceTree = "<group>"; };
 		430464F7259BF03D0080CE2D /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		430464F8259BF03D0080CE2D /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		430464FB25A3C2BB0080CE2D /* Cacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cacher.swift; sourceTree = "<group>"; };
+		430464FF25A3C6EE0080CE2D /* Cacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cacher.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,7 @@
 		430464DC259ADAE00080CE2D /* ApiDataWithImages */ = {
 			isa = PBXGroup;
 			children = (
+				430464FE25A3C6AE0080CE2D /* Cacher */,
 				430464F7259BF03D0080CE2D /* MyTableViewCell.swift */,
 				430464F8259BF03D0080CE2D /* MyTableViewCell.xib */,
 				430464DD259ADAE00080CE2D /* AppDelegate.swift */,
@@ -78,6 +82,15 @@
 				430464F3259AEB9F0080CE2D /* HeroStats.swift */,
 			);
 			path = ApiDataWithImages;
+			sourceTree = "<group>";
+		};
+		430464FE25A3C6AE0080CE2D /* Cacher */ = {
+			isa = PBXGroup;
+			children = (
+				430464FB25A3C2BB0080CE2D /* Cacher.swift */,
+				430464FF25A3C6EE0080CE2D /* Cacher.h */,
+			);
+			path = Cacher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				430464F2259ADCD30080CE2D /* HeroViewController.swift in Sources */,
+				430464FC25A3C2BC0080CE2D /* Cacher.swift in Sources */,
 				430464E2259ADAE00080CE2D /* ViewController.swift in Sources */,
 				430464DE259ADAE00080CE2D /* AppDelegate.swift in Sources */,
 				430464F4259AEB9F0080CE2D /* HeroStats.swift in Sources */,

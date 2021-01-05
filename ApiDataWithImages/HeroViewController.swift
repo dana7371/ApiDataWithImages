@@ -44,7 +44,7 @@ class CustomImageView: UIImageView {
     }
 }
 
-//without cache
+//original without cache
 /*extension UIImageView {
     func downloadedFrom(url: URL, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
             contentMode = mode

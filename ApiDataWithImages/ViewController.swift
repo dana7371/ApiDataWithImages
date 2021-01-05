@@ -37,13 +37,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.textLabel?.text = heroes[indexPath.row].localized_name.capitalized
          cell.detailTextLabel?.text = heroes[indexPath.row].primary_attr
         //cell.detailTextLabel?.text = "sjdksdjksdjk"
-        
         //cell.imageView?.image = UIImage(named: "dog")
 
         //for icon images
         let urlStringIcon = "https://api.opendota.com" + (heroes[indexPath.row].icon)
         let url = URL(string: urlStringIcon)
-       cell.imageView!.image(url: url!)
+       // cell.imageView!.setImage(url: url!) //error needs to be fixed
         return cell
         }
     

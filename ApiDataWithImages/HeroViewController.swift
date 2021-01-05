@@ -44,7 +44,7 @@ class CustomImageView: UIImageView {
     }
 }
 
-//original without cache
+//without cache
 /*extension UIImageView {
     func downloadedFrom(url: URL, contentMode mode: UIView.ContentMode = .scaleAspectFit) {
             contentMode = mode
@@ -70,12 +70,10 @@ class CustomImageView: UIImageView {
 
 
 class HeroViewController: UIViewController {
-    @IBOutlet weak var ImageView: UIImageView!
+    @IBOutlet weak var ImageView: CustomImageView! //changed from ImageView to CustomImageView
     @IBOutlet weak var nameLbl: UILabel!
     @IBOutlet weak var attributeLbl: UILabel!
     @IBOutlet weak var attackLbl: UILabel!
-    
-    
     @IBOutlet weak var legsLbl: UILabel!
     
     var hero: HeroStats?
@@ -88,10 +86,11 @@ class HeroViewController: UIViewController {
         attributeLbl.text = "Attribute:   \((hero?.primary_attr)!)"
         attackLbl.text = "Attack: \((hero?.attack_type)!)"
         legsLbl.text = "Legs: \((hero?.legs)!)"
+        
+        //image
         let urlString = "https://api.opendota.com" + (hero?.img)!
-        let urlStringIcon = "https://api.opendota.com" + (hero?.icon)!
         let url = URL(string: urlString)
-        ImageView.setImage(url:url!)
+        ImageView.setImage(from: url!) //fixed :)
       
     }
     

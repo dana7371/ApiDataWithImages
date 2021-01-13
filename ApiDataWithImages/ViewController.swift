@@ -41,7 +41,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
         //for icon images
         let urlStringIcon = "https://api.opendota.com" + (heroes[indexPath.row].icon)
-        let url = URL(string: urlStringIcon)
+        _ = URL(string: urlStringIcon)
         //cell.imageView!.setImage(url: url!) //error needs to be fixed
         return cell
         }

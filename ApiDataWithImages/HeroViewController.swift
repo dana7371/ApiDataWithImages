@@ -75,6 +75,7 @@ class HeroViewController: UIViewController {
     @IBOutlet weak var attributeLbl: UILabel!
     @IBOutlet weak var attackLbl: UILabel!
     @IBOutlet weak var legsLbl: UILabel!
+    @IBOutlet weak var projectilespdLbl: UILabel!
     
     var hero: HeroStats?
    
@@ -86,6 +87,7 @@ class HeroViewController: UIViewController {
         attributeLbl.text = "Attribute:   \((hero?.primary_attr)!)"
         attackLbl.text = "Attack: \((hero?.attack_type)!)"
         legsLbl.text = "Legs: \((hero?.legs)!)"
+        projectilespdLbl.text = "Projectile Speed: \((hero?.projectile_speed)!)"
         
         //image
         let urlString = "https://api.opendota.com" + (hero?.img)!

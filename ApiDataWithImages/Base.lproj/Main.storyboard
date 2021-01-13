@@ -108,6 +108,13 @@
                                     <constraint firstAttribute="height" constant="300" id="cvN-sk-kXz"/>
                                 </constraints>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Projectile Speed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqQ-36-bSg">
+                                <rect key="frame" x="113" y="386" width="172" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -123,6 +130,7 @@
                         <outlet property="attributeLbl" destination="JLu-ns-PdI" id="C1b-mE-xhP"/>
                         <outlet property="legsLbl" destination="uEQ-t1-LZk" id="4Dk-If-nUB"/>
                         <outlet property="nameLbl" destination="70n-0W-WPZ" id="hIu-TD-2Rz"/>
+                        <outlet property="projectilespdLbl" destination="bqQ-36-bSg" id="IiV-9z-HZg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ahO-Sh-ADs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

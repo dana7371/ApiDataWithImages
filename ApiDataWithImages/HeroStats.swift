@@ -20,6 +20,7 @@ struct HeroStats: Decodable {
     let legs: Int
     let img: String
     let icon: String
+    let projectile_speed: Int
     
 }
 

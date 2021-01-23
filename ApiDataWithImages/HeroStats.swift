@@ -21,6 +21,7 @@ struct HeroStats: Decodable {
     let img: String
     let icon: String
     let projectile_speed: Int
+    let turn_rate: Float
     
 }
 
